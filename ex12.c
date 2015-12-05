@@ -1,6 +1,6 @@
 
 /* ************************************************************************ *
- *    ex12.c, v.0.2                                                           *
+ *    ex12.c, v.0.2                                                         *
  *    Programa feito para simular uma rede de petri dado um arquivo de      *
  *    texto como entrada                                                    *
  *                                                                          *
@@ -37,17 +37,33 @@
  *                                                                          *
  *                                                                          *       
  ************************************************************************** *
- *                                                
- */
+
+*/
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 
 #ifndef DEBUG
-#define DEBUG 0 /**< Ativa modo de debug */
+#define DEBUG 0 /* Ativa modo de debug */
 #endif
 
+
+/*Fluxograma>> início: Ler aquivo Txt
+ *                     
+ *                     definir valores iniciais
+ *                     
+ *                     laço máximo de iterações (até pelo menos uma transição ativar <= Max de iterações)
+ *                    
+ *                          Pthread_create
+ *                              transição
+ *                          Pthread_join
+ *                     
+ *                     fim do laço
+ *
+ *                      desenha rede de Petri
+ *
+ *                      Fim da simulação*/
 int main (void)
 {
     ;
