@@ -1,0 +1,18 @@
+Fluxograma:
+>> início: Ler aquivo Txt
+ *                     
+ *                     definir valores iniciais
+ *                     
+ *                     laço máximo de iterações (até pelo menos uma transição ativar <= Max de iterações)
+ *                    
+ *                          Pthread_create
+ *                              transição
+ *                          Pthread_join
+ *                     
+ *                     fim do laço
+ *
+ *                      desenha rede de Petri
+ *
+ *                      Fim da simulação*/
+
+
