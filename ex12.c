@@ -1,13 +1,11 @@
 /* ************************************************************************ *
- *    ex3.c, v1.0                                                           *
+ *    ex3.c, v0.1                                                           *
  *    Programa feito para simular uma rede de petri dado um arquivo de      *
- *    texto como entrada                                                    *
+ *    texto como entrada e gerando uma imagem como saida.                   *
  *                                                                          *
  *    Copyright (C) 2015                                                    *
- *    Hugo Albuquerque de Fonseca                                           *
+ *    Igor Rego Barros de Santana                                           *
  *    Lucas Canejo Jurema                                                   *
- *    Mateus Lenier Rezende                                                 *
- *    Paulo Vitor Alves Patriota                                            *
  *    Thayna Maria Morim de Barros Barreto                                  *
  *                                                                          *
  *    This program is free software; you can redistribute it and/or modify  *
@@ -27,18 +25,12 @@
  *                                                                          *
  *    To contact the author, please write to:                               *
  *                                                                          *
- *    Hugo Albuquerque de Fonseca <hugoalbuquerque0@gmail.com>              *
+ *    Igor Rego Barros de Santana <igor.rbsantana@gmail.com>                *
  *    Phone: 55 (819) 9875-6561                                             *
  *                                                                          *
  *    Lucas Canejo Jurema <lucasbrgol2010@hotmail.com>                      *
  *    Phone: 55 (819) 9547-1048                                             *
- *                                                                          *    
- *    Mateus Lenier Rezende <mateuslenier@gmail.com>                        *
- *    Phone: 55 (819) 9891-2596                                             *
- *                                                                          *
- *    Paulo Vitor Alves Patriota <paulovitorpatriota@gmail.com>             *
- *    Phone: 55 (819) 9966-1154                                             *
- *                                                                          *
+ *                                                                          *                                                                        
  *    Thayna Maria Morim de Barros Barreto <tmorimbarreto@gmail.com>        *
  *    Phone: 55 (819) 9746-8034                                             *
  *                                                                          *
@@ -49,15 +41,13 @@
 
 
 /**
- * \file ex3.c
+ * \file ex12.c
  * \brief programa que simula rede de petri. 
- * \author Hugo Albuquerque de Fonsêca <<hugoalbuquerque0@gmail.com>>
+ * \author Igor Rego Barros de Santana <<igor.rbsantana@gmail.com>>
  * \author Lucas Canejo Jurema <<lucasbrgol2010@hotmail.com>>
- * \author Mateus Lenier Rezende <<mateuslenier@gmail.com>>
- * \author Paulo Vitor Alves Patriota <<paulovitorpatriota@gmail.com>>
  * \author Thayna Maria Morim de Barros Barreto <<tmorimbarreto@gmail.com>>  
- * \version 1.0
- * \date 2015-09-13
+ * \version 0.1
+ * \date 2015-12-02
  */
 /**
  * \
